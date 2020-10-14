@@ -12,7 +12,7 @@ import SwiftyJSON
 
 class ApiCalls{
     
-    static let URL_DATA = "http://www.tdtchannels.com/lists/channels.json"
+    static let URL_DATA = "https://www.tdtchannels.com/lists/tv.json"
     
     
     static func loadChannels(completionHandler:@escaping (_ result: [Channel], _ errorCode: Int?) -> Void){
